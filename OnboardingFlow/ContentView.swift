@@ -1,23 +1,37 @@
-//
-//  ContentView.swift
-//  OnboardingFlow
-//
-//  Created by RyanA on 3/28/25.
-//
 
 import SwiftUI
 
+let gradientColors: [Color] = [
+    .gradient1,
+    .gradient2,
+    .gradient3
+]
+
+let gradientColors2: [Color] = [
+   
+    .gradient1,
+    .gradient2,
+    .gradient1,
+    .gradient3,
+    
+  
+]
+
+
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-           ss
-        .padding()
+        TabView {
+            WelcomePage()
+            FeaturesPage()
+        }
+        .background(Gradient(colors: gradientColors))
+        .tabViewStyle(.page)
+        .foregroundStyle(Gradient(colors: gradientColors2))
     }
 }
 
+
 #Preview {
     ContentView()
+        .preferredColorScheme(.dark)
 }
