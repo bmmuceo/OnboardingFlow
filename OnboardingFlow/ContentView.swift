@@ -8,12 +8,38 @@ let gradientColors: [Color] = [
 ]
 
 let gradientColors2: [Color] = [
-   
+    .gradient1,
+    .gradient2,
+    .gradient2,
+    .gradient1,
+    .gradient2,
+    .gradient2,
+    .gradient1,
+    .gradient2,
+    .gradient2,
+    .gradient1,
+    .gradient2,
+    .gradient2,
     .gradient1,
     .gradient2,
     .gradient1,
     .gradient3,
-    
+    .gradient3,
+    .gradient3,
+    .gradient3,
+    .gradient3,
+    .gradient3,
+    .gradient3,
+    .gradient3,
+    .gradient3,
+    .gradient3,
+    .gradient3,
+    .gradient3,
+    .gradient3,
+    .gradient3,
+    .gradient3,
+    .gradient3,
+    .gradient3
   
 ]
 
